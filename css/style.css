@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    width: 100%;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#conteneur {
+    padding: 50px;
+    background-color: orange;
+}
+
+label {
+    width: 200px;
+}
+
+.inputForm {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.inputForm:hover {
+    padding-left: 10px;
+}
+
+.content {
+    width: 100%;
+}
+
+#conteneur:hover {
+    box-shadow: 5px 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    transition: 2s;
+    padding: 40px;
+}
+
+#formule {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 1% 19% 2% 19%
+}

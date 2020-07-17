@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="mx-auto" style="width: 60%; text-align: center;">
+      <div>
+        <span id="title">Conversion celsius => Farenheit</span>
+      </div>
+      <div>
+        <input type="color" name="toto" id="backColorChange" value="#ff0000" />
+        Change background
+      </div>
+    </div>
+    <div
+      id="conteneur"
+      class="border border-dark mx-auto"
+      style="width: 60%; margin-top: 60px;"
+    >
+      <div>
+        <label>Celsius °C :</label
+        ><input type="text" id="celsius" class="inputForm" /><button>Go</button>
+      </div>
+      <div>
+        <label>Farenheit °F :</label
+        ><input type="text" id="farenheit" class="inputForm" /><button>
+          Go
+        </button>
+      </div>
+      <div>
+        <label>Formule :</label><span id="formule">°F = °C*9/5+32</span>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
