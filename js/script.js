@@ -3,6 +3,8 @@ window.addEventListener(
   function loaded(event) {
     window.removeEventListener("DOMContentLoaded", loaded, false);
 
+    ("use strict");
+
     const color = document.getElementById("backColorChange");
     const celsius = document.getElementById("celsius");
     const farenheit = document.getElementById("farenheit");
@@ -12,7 +14,7 @@ window.addEventListener(
       document.body.style.backgroundColor = val;
     });
 
-    celsius.addEventListener("blur", function (event) {
+    celsius.addEventListener("input", function (event) {
       let value = event.target.value;
       console.log(value);
       if (value != "" && !isNaN(value)) {
@@ -24,7 +26,7 @@ window.addEventListener(
       }
     });
 
-    farenheit.addEventListener("blur", function (event) {
+    farenheit.addEventListener("input", function (event) {
       let value = event.target.value;
       console.log(value);
       if (value != "" && !isNaN(value)) {
